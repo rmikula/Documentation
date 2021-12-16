@@ -25,9 +25,9 @@ Each tartget has units: CPU Status, Memory/Disk space usage, Exception count, Re
 ## Metrics
 There are 3 metrics types
 
-1. Counter - how many times x happened ?
-2. Gauge - what is current value of x now ?
-3. Histogram - how long or how big ?
+| Counter | Gauge | Histogram |
+| --- | --- | --- |
+| how many times x happened ? | Gauge - what is current value of x now ? | how long or how big ? |
 
 # Collecting metrics data from targes
 
