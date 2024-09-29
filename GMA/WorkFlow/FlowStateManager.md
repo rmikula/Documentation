@@ -19,15 +19,14 @@ classDiagram
     }
 ```
 
-## Důležité třídy / rozhraní IFlowStateManager ...
+## Důležité třídy / rozhraní IFlowStateManager\<TState\>
 
 Rozhraní je implementováno třídou FlowStateManager\<TState\>.
 
-
+---
 ### TODO:
 - V metodě ResetCreateStateAsync se zbytečně znova inicializuje **stateModel.State = new TState();** 
 - Proceduru **AssertStateLoaded** lze označit Attributem **[MemberNotNull(nameof(StateModel))]** Pak nemusíme   vykříčník StateModel!.IsFlowFinalized
-
 --- 
 
 - IFlowIdentification - slouží pro identifikaci Flow
@@ -63,7 +62,7 @@ class IPhaseIdentificationContext {
 	}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTY1NTYzMSwtMTY5MzE0ODI3MSwyMT
-U0MTk0MSwyMTIzODAyMjMxLDIxMjM4MDIyMzEsNzczMjg5Nzks
-LTEwMDM0MTkyODUsMjA4NzA0ODg3OCwtMTQwNTk1Njk0XX0=
+eyJoaXN0b3J5IjpbLTE1NzE5ODc5NjcsLTE2OTMxNDgyNzEsMj
+E1NDE5NDEsMjEyMzgwMjIzMSwyMTIzODAyMjMxLDc3MzI4OTc5
+LC0xMDAzNDE5Mjg1LDIwODcwNDg4NzgsLTE0MDU5NTY5NF19
 -->
