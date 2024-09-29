@@ -1,4 +1,3 @@
-
 # How Prometheus Monitoring works | Prometheus Architecture explained
 
 Source: https://www.youtube.com/watch?v=h4Sl21AKiDg
@@ -10,6 +9,7 @@ Source: https://www.youtube.com/watch?v=h4Sl21AKiDg
 # Main components of Prometheus server
 
 ## Prometheus server
+
 * Storage - time series database
 * Retrieval - data retrieval worker - pulls metrics data from applications, services, servers, etc. and storing them to the database
 * HTTP server - Accept PromQL queries and display it on **Prometheus web UI** or **Grafana** etc.
@@ -23,10 +23,11 @@ What does Prometheus monitor ?
 Each tartget has units: CPU Status, Memory/Disk space usage, Exception count, Request count, Request duration, etc...
 
 ## Metrics
+
 There are 3 metrics types
 
-| Counter | Gauge | Histogram |
-| --- | --- | --- |
+| Counter                     | Gauge                                    | Histogram             |
+| --------------------------- | ---------------------------------------- | --------------------- |
 | how many times x happened ? | Gauge - what is current value of x now ? | how long or how big ? |
 
 # Collecting metrics data from targes
