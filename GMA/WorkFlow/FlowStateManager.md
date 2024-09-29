@@ -26,6 +26,13 @@ Rozhraní je implementováno třídou FlowStateManager\<TState\>.
 ### TODO:
 V metodě ResetCreateStateAsync se zbytečně znova inicializuje **stateModel.State = new TState();** 
 
+```c#
+public class Ters
+
+{
+}
+```
+
 - IFlowIdentification - slouží pro identifikaci Flow
 
 ```mermaid
@@ -59,7 +66,7 @@ class IPhaseIdentificationContext {
 	}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI4NTQ3MjM2LC0xNjkzMTQ4MjcxLDIxNT
-QxOTQxLDIxMjM4MDIyMzEsMjEyMzgwMjIzMSw3NzMyODk3OSwt
-MTAwMzQxOTI4NSwyMDg3MDQ4ODc4LC0xNDA1OTU2OTRdfQ==
+eyJoaXN0b3J5IjpbLTk0NTM5MjY5NywtMTY5MzE0ODI3MSwyMT
+U0MTk0MSwyMTIzODAyMjMxLDIxMjM4MDIyMzEsNzczMjg5Nzks
+LTEwMDM0MTkyODUsMjA4NzA0ODg3OCwtMTQwNTk1Njk0XX0=
 -->
