@@ -47,9 +47,6 @@ class IPhaseIdentificationContext {
 Hello
 ```mermaid
 classDiagram
-    direction LR
-    IPhasedFlowStateManager~TState ..|> IFlowStateManager~TState~
-    IFlowStateManager~Type~ ..|> IFlowStateManagerB 
     class IFlowStateManager~Type~ {
     <<interface>>
     +ss(List~string~)
@@ -62,5 +59,5 @@ classDiagram
     }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMDU3ODU3OSwtMTQwNTk1Njk0XX0=
+eyJoaXN0b3J5IjpbLTE0MzQxMTc3NzksLTE0MDU5NTY5NF19
 -->
