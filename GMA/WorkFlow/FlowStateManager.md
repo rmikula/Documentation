@@ -43,8 +43,10 @@ class IPhaseIdentificationContext {
 }
 ```
 ## Důležité třídy / rozhraní IPhasedFlowStateManager\<State\>
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjE2MzM1NzUsMjEyMzgwMjIzMSwyMT
-IzODAyMjMxLDc3MzI4OTc5LC0xMDAzNDE5Mjg1LDIwODcwNDg4
-NzgsLTE0MDU5NTY5NF19
+eyJoaXN0b3J5IjpbMjE1NDE5NDEsMjEyMzgwMjIzMSwyMTIzOD
+AyMjMxLDc3MzI4OTc5LC0xMDAzNDE5Mjg1LDIwODcwNDg4Nzgs
+LTE0MDU5NTY5NF19
 -->
