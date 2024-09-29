@@ -44,11 +44,11 @@ class IPhaseIdentificationContext {
 ```
 ## Důležité třídy / rozhraní IPhasedFlowStateManager\<State\>
 
-```mermaid
+```c
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMjgyNzA5MiwyMTU0MTk0MSwyMTIzOD
-AyMjMxLDIxMjM4MDIyMzEsNzczMjg5NzksLTEwMDM0MTkyODUs
-MjA4NzA0ODg3OCwtMTQwNTk1Njk0XX0=
+eyJoaXN0b3J5IjpbNjI2OTc2MzI2LDIxNTQxOTQxLDIxMjM4MD
+IyMzEsMjEyMzgwMjIzMSw3NzMyODk3OSwtMTAwMzQxOTI4NSwy
+MDg3MDQ4ODc4LC0xNDA1OTU2OTRdfQ==
 -->
