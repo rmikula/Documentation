@@ -19,7 +19,7 @@ classDiagram
     }
 ```
 
-## Důležité třídy / rozhraní IFlowStateManager\<TState\>
+## Důležité třídy / rozhraní IFlowStateManager
 
 Rozhraní je implementováno třídou FlowStateManager\<TState\>.
 
@@ -62,7 +62,7 @@ class IPhaseIdentificationContext {
 	}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzE5ODc5NjcsLTE2OTMxNDgyNzEsMj
+eyJoaXN0b3J5IjpbLTE3ODQxMDc0MTgsLTE2OTMxNDgyNzEsMj
 E1NDE5NDEsMjEyMzgwMjIzMSwyMTIzODAyMjMxLDc3MzI4OTc5
 LC0xMDAzNDE5Mjg1LDIwODcwNDg4NzgsLTE0MDU5NTY5NF19
 -->
