@@ -47,13 +47,14 @@ class IPhaseIdentificationContext {
 	public interface IPhasedFlowStateManager<TState> : IFlowStateManager<TState>    
     where TState : class, new()  
 	{  
-    List<PhaseDefinition> NavigationStack { get; set; }  
+	  List<PhaseDefinition> NavigationStack { get; set; }  
 	  PhaseDefinition? CurrentNavigationPhase { get; set; }  
 	  bool IsCurrentPhaseInitialized { get; set; }  
 	  bool IsBackEvent { get; set; }  
 	}
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDQxODMxNTcsMjE1NDE5NDEsMjEyMz
+eyJoaXN0b3J5IjpbLTE2OTMxNDgyNzEsMjE1NDE5NDEsMjEyMz
 gwMjIzMSwyMTIzODAyMjMxLDc3MzI4OTc5LC0xMDAzNDE5Mjg1
 LDIwODcwNDg4NzgsLTE0MDU5NTY5NF19
 -->
