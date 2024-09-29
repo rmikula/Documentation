@@ -42,9 +42,9 @@ class IPhaseIdentificationContext {
     +CompletionMessageTopic() string
 }
 ```
-
+## Důležité třídy / rozhraní IPhasedFlowStateManager<TState>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzgwMjIzMSwyMTIzODAyMjMxLDc3Mz
-I4OTc5LC0xMDAzNDE5Mjg1LDIwODcwNDg4NzgsLTE0MDU5NTY5
-NF19
+eyJoaXN0b3J5IjpbMjAwNDkzNjg0NSwyMTIzODAyMjMxLDIxMj
+M4MDIyMzEsNzczMjg5NzksLTEwMDM0MTkyODUsMjA4NzA0ODg3
+OCwtMTQwNTk1Njk0XX0=
 -->
