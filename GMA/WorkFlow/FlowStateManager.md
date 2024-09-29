@@ -5,7 +5,7 @@ IFlowStateManager a zděděné rozhraní/třídy slouží pro práci s FlowState
 ```mermaid
 classDiagram
     direction LR
-    IPhasedFlowStateManager~TState~ ..|> IFlowStateManager~TState~
+    IPhasedFlowStateManager~TState~ ..|> IFlowStateManager~Type~
     IFlowStateManager~Type~ ..|> IFlowStateManagerB
     class IFlowStateManager~Type~ {
     <<interface>>
@@ -62,5 +62,6 @@ classDiagram
     }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NzA0ODg3OCwtMTQwNTk1Njk0XX0=
+eyJoaXN0b3J5IjpbLTEwMDM0MTkyODUsMjA4NzA0ODg3OCwtMT
+QwNTk1Njk0XX0=
 -->
