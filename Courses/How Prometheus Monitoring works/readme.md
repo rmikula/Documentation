@@ -1,3 +1,4 @@
+
 # How Prometheus Monitoring works | Prometheus Architecture explained
 
 Source: https://www.youtube.com/watch?v=h4Sl21AKiDg
@@ -27,9 +28,13 @@ Each tartget has units: CPU Status, Memory/Disk space usage, Exception count, Re
 There are 3 metrics types
 
 | Counter                     | Gauge                                    | Histogram             |
-| --------------------------- | ---------------------------------------- | --------------------- |
+| --------------------------- | ---------------------------------------- | ------------------| Gauge | Histogram |
+| --- | --- | --- |
 | how many times x happened ? | Gauge - what is current value of x now ? | how long or how big ? |
 
 # Collecting metrics data from targes
 
 Data retrieval worker pulls over HTTP. Pull from **hostaddress/metrics**
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNjMxNDEzNDc1XX0=
+-->
