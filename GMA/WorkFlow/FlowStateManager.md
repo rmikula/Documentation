@@ -44,17 +44,16 @@ class IPhaseIdentificationContext {
 ```
 ## Důležité třídy / rozhraní IPhasedFlowStateManager\<State\>
 
-    public interface IPhasedFlowStateManager<TState> : IFlowStateManager<TState>    
+	public interface IPhasedFlowStateManager<TState> : IFlowStateManager<TState>    
     where TState : class, new()  
-{  
+	{  
     List<PhaseDefinition> NavigationStack { get; set; }  
-  PhaseDefinition? CurrentNavigationPhase { get; set; }  
-  bool IsCurrentPhaseInitialized { get; set; }  
-  bool IsBackEvent { get; set; }  
-}
-
+	  PhaseDefinition? CurrentNavigationPhase { get; set; }  
+	  bool IsCurrentPhaseInitialized { get; set; }  
+	  bool IsBackEvent { get; set; }  
+	}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1MjI1OTI5LDIxNTQxOTQxLDIxMjM4MD
-IyMzEsMjEyMzgwMjIzMSw3NzMyODk3OSwtMTAwMzQxOTI4NSwy
-MDg3MDQ4ODc4LC0xNDA1OTU2OTRdfQ==
+eyJoaXN0b3J5IjpbLTE3MDQxODMxNTcsMjE1NDE5NDEsMjEyMz
+gwMjIzMSwyMTIzODAyMjMxLDc3MzI4OTc5LC0xMDAzNDE5Mjg1
+LDIwODcwNDg4NzgsLTE0MDU5NTY5NF19
 -->
