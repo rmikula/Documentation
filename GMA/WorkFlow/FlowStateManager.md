@@ -48,7 +48,7 @@ Hello
 ```mermaid
 classDiagram
 	direction LR
-	IPhasedFlowStateManager~TState ..|> IFlowStateManager~TState~
+		IPhasedFlowStateManager~TState~ ..|> IFlowStateManager~Type~
     class IFlowStateManager~Type~ {
     <<interface>>
     +ss(List~string~)
@@ -61,5 +61,5 @@ classDiagram
     }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjIyMDM2OSwtMTQwNTk1Njk0XX0=
+eyJoaXN0b3J5IjpbMTI2NTczMjA5NCwtMTQwNTk1Njk0XX0=
 -->
