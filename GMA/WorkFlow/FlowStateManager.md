@@ -24,14 +24,9 @@ classDiagram
 Rozhraní je implementováno třídou FlowStateManager\<TState\>.
 
 ### TODO:
-V metodě ResetCreateStateAsync se zbytečně znova inicializuje **stateModel.State = new TState();** 
+- V metodě ResetCreateStateAsync se zbytečně znova inicializuje **stateModel.State = new TState();** 
 
-```c#
-public class Ters
 
-{
-}
-```
 
 - IFlowIdentification - slouží pro identifikaci Flow
 
@@ -66,7 +61,7 @@ class IPhaseIdentificationContext {
 	}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTM5MjY5NywtMTY5MzE0ODI3MSwyMT
+eyJoaXN0b3J5IjpbLTkxMzE5MzY0MywtMTY5MzE0ODI3MSwyMT
 U0MTk0MSwyMTIzODAyMjMxLDIxMjM4MDIyMzEsNzczMjg5Nzks
 LTEwMDM0MTkyODUsMjA4NzA0ODg3OCwtMTQwNTk1Njk0XX0=
 -->
