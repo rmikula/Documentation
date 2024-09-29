@@ -21,6 +21,8 @@ classDiagram
 
 ## Důležité třídy / rozhraní IFlowStateManager ...
 
+Rozhraní je implementováno třídou FlowStateManager\<TState>
+
 - IFlowIdentification - slouží pro identifikaci Flow
 
 ```mermaid
@@ -54,7 +56,7 @@ class IPhaseIdentificationContext {
 	}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTMxNDgyNzEsMjE1NDE5NDEsMjEyMz
-gwMjIzMSwyMTIzODAyMjMxLDc3MzI4OTc5LC0xMDAzNDE5Mjg1
-LDIwODcwNDg4NzgsLTE0MDU5NTY5NF19
+eyJoaXN0b3J5IjpbODEzOTE3MTQ0LC0xNjkzMTQ4MjcxLDIxNT
+QxOTQxLDIxMjM4MDIyMzEsMjEyMzgwMjIzMSw3NzMyODk3OSwt
+MTAwMzQxOTI4NSwyMDg3MDQ4ODc4LC0xNDA1OTU2OTRdfQ==
 -->
