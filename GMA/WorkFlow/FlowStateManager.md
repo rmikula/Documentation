@@ -34,6 +34,7 @@ class IFlowIdentification {
 ```
 
 - IPhaseIdentificationContext - slouží k identifikace fáze  
+
 ```mermaid
 classDiagram
 class IPhaseIdentificationContext {
@@ -44,6 +45,6 @@ class IPhaseIdentificationContext {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0OTg4NjYzLDc3MzI4OTc5LC0xMDAzND
+eyJoaXN0b3J5IjpbNjMxMzM0NjkzLDc3MzI4OTc5LC0xMDAzND
 E5Mjg1LDIwODcwNDg4NzgsLTE0MDU5NTY5NF19
 -->
